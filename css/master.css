@@ -1,6 +1,9 @@
 body {
     display: flex;
+    flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    height: 1200px;
 }
 
 header {
@@ -9,6 +12,7 @@ header {
     height: 80px;
     align-items: center;
     justify-content: center;
+    background-color: indigo;
   }
 
   #name_title {
@@ -49,3 +53,15 @@ header {
     margin-top: auto;
     padding: 0px;
   }
+
+  #landing {
+      display: flex;
+      height: 100%;
+      background-color: gold;
+  }
+
+  #footer {
+    display: flex;
+    height: 200px;
+    background-color: green;
+}
