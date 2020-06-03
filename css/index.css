@@ -15,12 +15,15 @@ header {
     flex-direction: column;
     width: 25%;
     height: 100%;
-    align-items: center;
+    align-items: center;;
   }
 
   .h {
       margin: 0;
       font-weight: normal;
+  }
+  #title {
+      font-size: 20px;
   }
 
   #name {
@@ -37,7 +40,8 @@ header {
   }
 
   .nav-text {
-    font-size: 18px;
+    font-size: 20px;
     color: black;
     padding: 12px;
+    text-decoration: none;
   }
