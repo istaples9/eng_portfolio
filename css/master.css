@@ -64,16 +64,20 @@ header {
 
   #footer {
     display: flex;
+    background-color: rgba(150, 145, 145, 0.178);
     height: 200px;
     justify-content: center;
     align-items: center;
 }
 
+.nav_footer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
 .nav_footer a {
   color: black;
-  background-color: rgba(150, 145, 145, 0.178);
   text-decoration: none;
   font-size: 14px;
-  margin: 10px;
-  padding: 10px;
 }
