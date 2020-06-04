@@ -1,9 +1,9 @@
 
-#project_covers {
+#project_images {
     display: flex;
+    width: 70%;
     height: 100%;
-    justify-content: space-evenly;
-    padding: 10px;
+    align-self: center;
 }
 
 .cover_container {
