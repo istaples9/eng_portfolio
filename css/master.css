@@ -8,9 +8,11 @@ body {
 
 header {
     display: flex;
+    flex-direction: column;
     width: 60%;
-    height: 80px;
+    height: 100px;
     align-self: center;
+    margin: 20px;
   }
 
   #name_title {
@@ -19,7 +21,6 @@ header {
     width: 100%;
     height: 100%;
     align-items: center;
-    justify-content: flex-end;
   }
 
   .h {
@@ -32,25 +33,23 @@ header {
 }
 
   #title {
-      font-size: 20px;
+    font-size: 20px;
   }
 
-  #nav {
+  .nav {
     display: flex;
-    background-color: white;
-    width: 100%;
-    height: 100%;
     justify-content: center;
-    align-items: flex-end;
   }
 
-  .nav-text {
+  .nav a {
     font-size: 20px;
     color: black;
-    padding: 12px;
     text-decoration: none;
-    padding-left: 10px;
-    padding-bottom: 0px;
+    padding: 20px;
+  }
+
+  .nav .current {
+    color: blue;
   }
 
   #landing {
