@@ -54,7 +54,11 @@ header {
   }
 
   .nav .current {
-    color: blue;
+    color: rgb(108, 187, 115);
+  }
+
+  .nav_footer .current {
+    color: rgb(108, 187, 115);
   }
 
   #footer {
