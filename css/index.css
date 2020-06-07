@@ -13,13 +13,41 @@
 }
 
 .covers {
+    display: flex;
     flex: 1;
     margin: 10px;
-    background-color: grey;
+    justify-content: center;
 }
 
-.cover-img {
+.cover_img {
+    display: flex;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
+
+.covers:hover .cover_img {
+    filter: brightness(50%);
+}
+
+.covers:hover .cover_text {
+    display: flex;
+}
+
+.cover_text {
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    color: white;
+}
+
+.cover_name {
+    font-size: 18px;
+}
+
+.cover_title {
+    font-size: 15px;
+}
+  
