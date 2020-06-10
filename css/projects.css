@@ -1,53 +1,9 @@
 
-#about {
-    position: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 20px;
-    left: 20px;
-    color: white;
-    background-color: rgba(146, 145, 150, 0.75);
-    padding: 10px;
-}
-
-#about:hover + #project_info{
-    display: flex;
-    position: fixed;
-}
-
-#project_info {
-    display: none;
-    position:absolute;
-    justify-content: center;
-    align-items: center;
-    height:auto;
-    bottom:0;
-    top:0;
-    left:0;
-    right:0;
-    margin: 20px;
-    color: white;
-    background-color: rgba(146, 145, 150, 0.75);
-}
-
-#info_text {
-    width: 50%;
-    font-size: 18px;
-}
-
-#project_boxes {
-    display: flex;
-    justify-content: center;
-    z-index: -2;
-}
-
 #cover_container {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 50%;
     margin: 10px;
-    align-items: center;
 }
 
 .covers {
