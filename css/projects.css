@@ -1,9 +1,18 @@
+#parent_container {
+    display: flex;
+    width: 80%;
+}
+
+.child_container {
+    flex: 1;
+    margin: 10px;
+}
+
 
 #cover_container {
     display: flex;
     flex-direction: column;
-    width: 70%;
-    margin: 10px;
+    flex: 2.5 !important;
 }
 
 .covers {
@@ -32,29 +41,18 @@
     font-size: 11px;
 }
 
-#parent_container {
-    display: flex;
-}
-
-.child_container {
-    width: 33%;
-}
-
 #about_container {
     position: sticky;
     display: flex;
     flex-direction: column;
     top: 20px;
     margin-top: 20px;
-    margin-left: 20px;
-    height: 250px;
+    height: min-content;
     background-color: rgb(150, 145, 145, 0.25);
 }
 
 .about_text {
-    width: 150px;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin: 20px;
 }
 
 #about_title {
@@ -64,7 +62,8 @@
 
 #about_details {
     font-size: 12px;
-    line-height: 20px;;
+    line-height: 20px;
+    margin-top: -10px;
 }
 
 
