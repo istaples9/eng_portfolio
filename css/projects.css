@@ -29,6 +29,11 @@
     outline: 1px solid rgba(146, 145, 150, 0.75);
 }
 
+#pdf {
+    height: 25vw;
+    object-fit: cover;
+}
+
 .desc {
     position: absolute;
     display: flex;
