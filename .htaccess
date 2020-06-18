@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "Ian Staples Portfolio"
-AuthUserFile .htaccess
-require valid-user
