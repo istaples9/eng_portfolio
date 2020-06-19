@@ -2,30 +2,30 @@
 <html prefix="og: http://ogp.me/ns#">
 <head>
 
+	<link rel="stylesheet" type="text/css" href="befa2b19820da7401dbf672069d4af99a040c200/css/master.css">
 
-<title>Ian Staples Portfolio</title>
-<meta property="og:title" content="Ian Staples Portfolio" />
-<meta property="og:type" content="website" />
-<meta property="og:image" content="https://raw.githubusercontent.com/istaples9/is9_design/master/befa2b19820da7401dbf672069d4af99a040c200/media/projects/rc4/rc4_render_01.jpg" />
-<meta property="og:url" content="https://is9.design/" />
+	<title>Ian Staples Portfolio</title>
+	<meta property="og:title" content="Professional Portfolio" />
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="https://raw.githubusercontent.com/istaples9/is9_design/master/befa2b19820da7401dbf672069d4af99a040c200/media/projects/rc4/rc4_render_01.jpg" />
+	<meta property="og:url" content="https://is9.design/" />
 
 </head>
 
 <style>
 
 body {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	font-size: 14px;
 	height: 100vh;
-	background-color: rgba(150, 145, 145, 0.25);
+	justify-content: center;
+	text-transform: none;
 }
-
-#login_box {
+.login_box {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	margin: 40px;
 }
 
 .login {
@@ -42,13 +42,12 @@ body {
 
 <body>
 
-	<div id="login_box" class="light_box">
+	<div class="login_box">
 		<input class="login" id="password" type="password" placeholder="Password" /> <br />
 		<button class="login" id="login_button" type="button">Log In</button>
 		<p id="wrongPassword" style="display: none">wrong password</p>
 	</div>
-	<!--<div>To view my portfolio, please message or email me requesting a password.</div>-->
-
+	<div is="request" class="login_box">To access portfolio, please email your request to istaples9@gmail.com or message me on Linkedin. Thank you.</div>
 
 
 	<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
