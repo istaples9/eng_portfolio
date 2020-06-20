@@ -24,10 +24,9 @@
 }
 
 .covers:hover {
-    width: 150%;
-    height: 150%;
+    transform: scale(1.5);
     z-index: 1;
-    align-self: center;
+
 }
 
 .cover_img {
@@ -35,6 +34,10 @@
     height: 100%;
     object-fit: cover;
     outline: 1px solid rgba(146, 145, 150, 0.75);
+}
+
+#pdf_cover:hover  {
+    transform: none; 
 }
 
 #pdf {
