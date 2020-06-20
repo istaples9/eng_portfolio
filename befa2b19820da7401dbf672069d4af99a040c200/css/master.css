@@ -70,7 +70,7 @@ header {
     display: flex;
     background-color: rgba(146, 145, 150, 0.25);
     width: 100%;
-    height: auto;
+    height: 280px;
     justify-content: center;
     align-items: center;
 }
