@@ -88,6 +88,7 @@
 
 /* contact page css below*/
 #about_me {
+    min-height: 800px;
     line-height: 20px;
     margin: 20px;
     flex: 1.75;
