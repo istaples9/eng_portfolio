@@ -71,20 +71,50 @@
 }
 
 .about_text {
+    text-transform: none;
     margin: 20px;
+    font-size: 15px;
 }
 
 #about_title {
-    font-size: 15px;
     text-decoration: underline;
+    text-transform: uppercase;
 }
 
 #about_details {
-    font-size: 13px;
-    line-height: 20px;
-    margin-top: -10px;
     text-transform: none;
+    margin-top: -10px;
 }
 
+/* contact page css below*/
+#about_me {
+    line-height: 20px;
+    margin: 20px;
+    flex: 1.75;
+    background-color: rgb(150, 145, 145, 0.25);
+}
 
+#bullets {
+    padding-left: 20px;
+}
 
+#email_form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.form_row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#message {
+    height: 100px;
+}
+
+input, button {
+    height: 30px;
+}
