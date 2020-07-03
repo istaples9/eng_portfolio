@@ -110,7 +110,6 @@
 .form_row {
     display: flex;
     flex-direction: column;
-    align-content: center;
     padding-bottom: 20px;
 }
 
@@ -124,4 +123,8 @@ h2 {
 
 input, button {
     height: 30px;
+}
+
+button {
+    padding-top: 5px;
 }
