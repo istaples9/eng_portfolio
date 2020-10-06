@@ -26,6 +26,7 @@
 .covers:hover {
     transform: scale(1.5);
     z-index: 1;
+    margin: 10px;
 }
 
 .covers:hover .desc{
@@ -129,3 +130,16 @@ button {
     padding-top: 5px;
 }
 
+@media only screen and (max-width: 1200px) {
+
+    #parent_container {
+        flex-direction: column;
+        zoom: 1.25;
+    }
+
+    #about_container {
+        position: relative;
+        top: 5px;
+    }
+
+}
