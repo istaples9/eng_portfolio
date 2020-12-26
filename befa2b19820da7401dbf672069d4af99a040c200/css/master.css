@@ -56,15 +56,15 @@ header {
   }
 
   .nav a:hover {
-    color: rgb(108, 187, 115);
+    color: rgb(76, 179, 211);
   }
 
   .nav .current {
-    color: rgb(108, 187, 115);
+    color: rgb(76, 179, 211);
   }
 
   .nav_footer .current {
-    color: rgb(108, 187, 115);
+    color: rgb(76, 179, 211);
   }
 
   #footer {
@@ -92,7 +92,7 @@ header {
 }
 
 .nav_footer a:hover {
-  color: rgb(108, 187, 115);
+  color: rgb(76, 179, 211);
 }
 
 @media only screen and (max-width: 1200px) {
