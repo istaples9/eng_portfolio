@@ -60,7 +60,8 @@ header {
   }
 
   .nav .current {
-    text-decoration: underline; 
+    font-weight: bold;
+    font-size: 16px;
   }
 
   .nav_footer .current {
