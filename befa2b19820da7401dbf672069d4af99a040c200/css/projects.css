@@ -24,7 +24,7 @@
 }
 
 .covers:hover {
-    transform: scale(1.5);
+    transform: scale(1.25);
     z-index: 1;
     margin: 10px;
 }
